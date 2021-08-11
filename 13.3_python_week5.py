@@ -36,6 +36,8 @@ while True:
     sum = 0
     for element in counts:
         x = element.text
+    # add.text behind to make element readable or pop up
+    # this is xml.etree.ElementTree.Element
         sum += int(x)
 
     print(count, sum)
